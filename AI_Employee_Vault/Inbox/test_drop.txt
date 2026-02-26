@@ -1,0 +1,21 @@
+This is a sample document for testing the File System Watcher.
+
+Drop this file into the Inbox folder to trigger the AI Employee.
+
+## Test Content
+
+The watcher should:
+1. Detect this file
+2. Copy it to /Needs_Action/
+3. Create a metadata .md file
+4. Log the action
+
+## Expected Behavior
+
+After dropping this file:
+- Check /Needs_Action/ for FILE_sample_test_drop_*.md
+- Check /Needs_Action/ for FILE_sample_test_drop_*.md.meta
+- Run orchestrator to process the task
+
+---
+*Created for Bronze Tier Testing*
